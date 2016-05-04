@@ -1,0 +1,14 @@
+{
+	"name": "Email link to dashboard",
+	"description": "E-mail link to this dashboard including current selections. Prepared for QlikCrunch webex in Eastern Europe - March Challenge",
+	"type": "visualization",
+	"version": "1.3.0",
+	"icon": "extension",
+	"author": "Piotr Cylupa, Przemek Zabludowski",
+	"homepage": "",
+	"preview": "graphics/preview.png",
+	"keywords": "qlik-sense, visualization",
+	"dependencies": {
+		"qlik-sense": ">=2.2.x"
+	}
+}

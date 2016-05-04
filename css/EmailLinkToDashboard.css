@@ -1,0 +1,435 @@
+.emailLinkToDashboard-full-width {
+    width: calc(100% - 16px)
+}
+.emailLinkToDashboard-auto-width {
+    width: auto
+}
+.emailLinkToDashboard-btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+.emailLinkToDashboard-btn:focus,
+.emailLinkToDashboard-btn:active:focus,
+.emailLinkToDashboard-btn.active:focus,
+.emailLinkToDashboard-btn.focus,
+.emailLinkToDashboard-btn:active.focus,
+.emailLinkToDashboard-btn.active.focus {
+    outline: thin dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+    outline-offset: -2px
+}
+.emailLinkToDashboard-btn:hover,
+.emailLinkToDashboard-btn:focus,
+.emailLinkToDashboard-btn.focus {
+    color: #333;
+    text-decoration: none
+}
+.emailLinkToDashboard-btn:active,
+.emailLinkToDashboard-btn.active {
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125)
+}
+.emailLinkToDashboard-btn.disabled,
+.emailLinkToDashboard-btn[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn {
+    pointer-events: none;
+    cursor: not-allowed;
+    filter: alpha(opacity=65);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    opacity: .65
+}
+.emailLinkToDashboard-btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc
+}
+.emailLinkToDashboard-btn-default:hover,
+.emailLinkToDashboard-btn-default:focus,
+.emailLinkToDashboard-btn-default.focus,
+.emailLinkToDashboard-btn-default:active,
+.emailLinkToDashboard-btn-default.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-default {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad
+}
+.emailLinkToDashboard-btn-default:active,
+.emailLinkToDashboard-btn-default.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-default {
+    background-image: none
+}
+.emailLinkToDashboard-btn-default.disabled,
+.emailLinkToDashboard-btn-default[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default,
+.emailLinkToDashboard-btn-default.disabled:hover,
+.emailLinkToDashboard-btn-default[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default:hover,
+.emailLinkToDashboard-btn-default.disabled:focus,
+.emailLinkToDashboard-btn-default[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default:focus,
+.emailLinkToDashboard-btn-default.disabled.focus,
+.emailLinkToDashboard-btn-default[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default.focus,
+.emailLinkToDashboard-btn-default.disabled:active,
+.emailLinkToDashboard-btn-default[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default:active,
+.emailLinkToDashboard-btn-default.disabled.active,
+.emailLinkToDashboard-btn-default[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-default.active {
+    background-color: #fff;
+    border-color: #ccc
+}
+.emailLinkToDashboard-btn-default .badge {
+    color: #fff;
+    background-color: #333
+}
+.emailLinkToDashboard-btn-primary {
+    color: #fff;
+    background-color: #428bca;
+    border-color: #357ebd
+}
+.emailLinkToDashboard-btn-primary:hover,
+.emailLinkToDashboard-btn-primary:focus,
+.emailLinkToDashboard-btn-primary.focus,
+.emailLinkToDashboard-btn-primary:active,
+.emailLinkToDashboard-btn-primary.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-primary {
+    color: #fff;
+    background-color: #3071a9;
+    border-color: #285e8e
+}
+.emailLinkToDashboard-btn-primary:active,
+.emailLinkToDashboard-btn-primary.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-primary {
+    background-image: none
+}
+.emailLinkToDashboard-btn-primary.disabled,
+.emailLinkToDashboard-btn-primary[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary,
+.emailLinkToDashboard-btn-primary.disabled:hover,
+.emailLinkToDashboard-btn-primary[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary:hover,
+.emailLinkToDashboard-btn-primary.disabled:focus,
+.emailLinkToDashboard-btn-primary[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary:focus,
+.emailLinkToDashboard-btn-primary.disabled.focus,
+.emailLinkToDashboard-btn-primary[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary.focus,
+.emailLinkToDashboard-btn-primary.disabled:active,
+.emailLinkToDashboard-btn-primary[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary:active,
+.emailLinkToDashboard-btn-primary.disabled.active,
+.emailLinkToDashboard-btn-primary[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-primary.active {
+    background-color: #428bca;
+    border-color: #357ebd
+}
+.emailLinkToDashboard-btn-primary .badge {
+    color: #428bca;
+    background-color: #fff
+}
+.emailLinkToDashboard-btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c
+}
+.emailLinkToDashboard-btn-success:hover,
+.emailLinkToDashboard-btn-success:focus,
+.emailLinkToDashboard-btn-success.focus,
+.emailLinkToDashboard-btn-success:active,
+.emailLinkToDashboard-btn-success.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-success {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439
+}
+.emailLinkToDashboard-btn-success:active,
+.emailLinkToDashboard-btn-success.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-success {
+    background-image: none
+}
+.emailLinkToDashboard-btn-success.disabled,
+.emailLinkToDashboard-btn-success[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success,
+.emailLinkToDashboard-btn-success.disabled:hover,
+.emailLinkToDashboard-btn-success[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success:hover,
+.emailLinkToDashboard-btn-success.disabled:focus,
+.emailLinkToDashboard-btn-success[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success:focus,
+.emailLinkToDashboard-btn-success.disabled.focus,
+.emailLinkToDashboard-btn-success[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success.focus,
+.emailLinkToDashboard-btn-success.disabled:active,
+.emailLinkToDashboard-btn-success[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success:active,
+.emailLinkToDashboard-btn-success.disabled.active,
+.emailLinkToDashboard-btn-success[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-success.active {
+    background-color: #5cb85c;
+    border-color: #4cae4c
+}
+.emailLinkToDashboard-btn-success .badge {
+    color: #5cb85c;
+    background-color: #fff
+}
+.emailLinkToDashboard-btn-info {
+    color: #fff;
+    background-color: #5bc0de;
+    border-color: #46b8da
+}
+.emailLinkToDashboard-btn-info:hover,
+.emailLinkToDashboard-btn-info:focus,
+.emailLinkToDashboard-btn-info.focus,
+.emailLinkToDashboard-btn-info:active,
+.emailLinkToDashboard-btn-info.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-info {
+    color: #fff;
+    background-color: #31b0d5;
+    border-color: #269abc
+}
+.emailLinkToDashboard-btn-info:active,
+.emailLinkToDashboard-btn-info.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-info {
+    background-image: none
+}
+.emailLinkToDashboard-btn-info.disabled,
+.emailLinkToDashboard-btn-info[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info,
+.emailLinkToDashboard-btn-info.disabled:hover,
+.emailLinkToDashboard-btn-info[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info:hover,
+.emailLinkToDashboard-btn-info.disabled:focus,
+.emailLinkToDashboard-btn-info[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info:focus,
+.emailLinkToDashboard-btn-info.disabled.focus,
+.emailLinkToDashboard-btn-info[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info.focus,
+.emailLinkToDashboard-btn-info.disabled:active,
+.emailLinkToDashboard-btn-info[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info:active,
+.emailLinkToDashboard-btn-info.disabled.active,
+.emailLinkToDashboard-btn-info[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-info.active {
+    background-color: #5bc0de;
+    border-color: #46b8da
+}
+.emailLinkToDashboard-btn-info .badge {
+    color: #5bc0de;
+    background-color: #fff
+}
+.emailLinkToDashboard-btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+.emailLinkToDashboard-btn-warning:hover,
+.emailLinkToDashboard-btn-warning:focus,
+.emailLinkToDashboard-btn-warning.focus,
+.emailLinkToDashboard-btn-warning:active,
+.emailLinkToDashboard-btn-warning.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-warning {
+    color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512
+}
+.emailLinkToDashboard-btn-warning:active,
+.emailLinkToDashboard-btn-warning.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-warning {
+    background-image: none
+}
+.emailLinkToDashboard-btn-warning.disabled,
+.emailLinkToDashboard-btn-warning[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning,
+.emailLinkToDashboard-btn-warning.disabled:hover,
+.emailLinkToDashboard-btn-warning[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning:hover,
+.emailLinkToDashboard-btn-warning.disabled:focus,
+.emailLinkToDashboard-btn-warning[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning:focus,
+.emailLinkToDashboard-btn-warning.disabled.focus,
+.emailLinkToDashboard-btn-warning[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning.focus,
+.emailLinkToDashboard-btn-warning.disabled:active,
+.emailLinkToDashboard-btn-warning[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning:active,
+.emailLinkToDashboard-btn-warning.disabled.active,
+.emailLinkToDashboard-btn-warning[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-warning.active {
+    background-color: #f0ad4e;
+    border-color: #eea236
+}
+.emailLinkToDashboard-btn-warning .badge {
+    color: #f0ad4e;
+    background-color: #fff
+}
+.emailLinkToDashboard-btn-danger {
+    color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+.emailLinkToDashboard-btn-danger:hover,
+.emailLinkToDashboard-btn-danger:focus,
+.emailLinkToDashboard-btn-danger.focus,
+.emailLinkToDashboard-btn-danger:active,
+.emailLinkToDashboard-btn-danger.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-danger {
+    color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925
+}
+.emailLinkToDashboard-btn-danger:active,
+.emailLinkToDashboard-btn-danger.active,
+.emailLinkToDashboard-open>.dropdown-toggle.btn-danger {
+    background-image: none
+}
+.emailLinkToDashboard-btn-danger.disabled,
+.emailLinkToDashboard-btn-danger[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger,
+.emailLinkToDashboard-btn-danger.disabled:hover,
+.emailLinkToDashboard-btn-danger[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger:hover,
+.emailLinkToDashboard-btn-danger.disabled:focus,
+.emailLinkToDashboard-btn-danger[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger:focus,
+.emailLinkToDashboard-btn-danger.disabled.focus,
+.emailLinkToDashboard-btn-danger[disabled].focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger.focus,
+.emailLinkToDashboard-btn-danger.disabled:active,
+.emailLinkToDashboard-btn-danger[disabled]:active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger:active,
+.emailLinkToDashboard-btn-danger.disabled.active,
+.emailLinkToDashboard-btn-danger[disabled].active,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-danger.active {
+    background-color: #d9534f;
+    border-color: #d43f3a
+}
+.emailLinkToDashboard-btn-danger .badge {
+    color: #d9534f;
+    background-color: #fff
+}
+.emailLinkToDashboard-btn-link {
+    font-weight: normal;
+    color: #428bca;
+    border-radius: 0
+}
+.emailLinkToDashboard-btn-link,
+.emailLinkToDashboard-btn-link:active,
+.emailLinkToDashboard-btn-link.active,
+.emailLinkToDashboard-btn-link[disabled],
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-link {
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+.emailLinkToDashboard-btn-link,
+.emailLinkToDashboard-btn-link:hover,
+.emailLinkToDashboard-btn-link:focus,
+.emailLinkToDashboard-btn-link:active {
+    border-color: transparent
+}
+.emailLinkToDashboard-btn-link:hover,
+.emailLinkToDashboard-btn-link:focus {
+    color: #2a6496;
+    text-decoration: underline;
+    background-color: transparent
+}
+.emailLinkToDashboard-btn-link[disabled]:hover,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-link:hover,
+.emailLinkToDashboard-btn-link[disabled]:focus,
+.qv-object-swr-sense-navigation fieldset[disabled] .btn-link:focus {
+    color: #777;
+    text-decoration: none
+}
+.emailLinkToDashboard-btn-lg,
+.emailLinkToDashboard-btn-group-lg>.btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px
+}
+.emailLinkToDashboard-btn-sm,
+.emailLinkToDashboard-btn-group-sm>.btn {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.emailLinkToDashboard-btn-xs,
+.emailLinkToDashboard-btn-group-xs>.btn {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px
+}
+.emailLinkToDashboard-btn-block {
+    display: block;
+    width: 100%
+}
+.emailLinkToDashboard-btn-block+.btn-block {
+    margin-top: 5px
+}
+.emailLinkToDashboard-btn-100perc {
+    width: 100%
+}
+
+/* Tooltip container */
+.emailLinkToDashboard-tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.emailLinkToDashboard-tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    top: 150%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+
+.emailLinkToDashboard-tooltip .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent black transparent;
+}
+/* Show the tooltip text when you mouse over the tooltip container */
+.emailLinkToDashboard-tooltip:hover .tooltiptext {
+    visibility: visible;
+}
